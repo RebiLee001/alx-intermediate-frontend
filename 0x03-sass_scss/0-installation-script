@@ -1,0 +1,22 @@
+# Steps to install SASS
+
+1. Created the directory 0x03-sass_scss inside the alx-intermediate-frontend repository:
+   $ mkdir 0x03-sass_scss
+
+2. Installed Node Version Manager (nvm):
+   $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+3. Exited and reopened the terminal.
+
+4. Installed Node.js version 20.16:
+   $ nvm install 20.16
+
+5. Verified Node and npm installation:
+   $ node -v
+   $ npm -v
+
+6. Installed SASS version 3.7.4 using npm:
+   $ npm install sass -v 3.7.4
+
+7. Verified SASS installation:
+   $ npx sass --version
